@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi primera página web</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Biografía de Tom Brady</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilos para el encabezado */
+    header {
+      background-color: #001f3f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Estilos para las imágenes */
+    img {
+      width: 150px; /* Cambia este valor al ancho deseado */
+      height: auto; /* El valor "auto" ajustará la altura proporcionalmente al ancho */
+      border-radius: 20%;
+    }
+
+
+    /* Estilos para la barra de navegación */
+    nav {
+      background-color: #FF0000;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #333;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+
+    /* Estilos para las secciones */
+    section {
+      padding: 20px;
+    }
+
+    section h2 {
+      color: #333;
+    }
+
+    /* Estilos para el pie de página */
+    footer {
+      background-color: #001f3f;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenido a mi página web</h1>
+    <h1>Tom Brady</h1>
   </header>
 
   <nav>
     <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="#biografia">Biografía</a></li>
+      <li><a href="#logros">Logros</a></li>
+      <li><a href="#legado">Legado</a></li>
     </ul>
   </nav>
 
-  <section>
-    <h2>Acerca de mí</h2>
-    <p>Soy un entusiasta de la programación y me encanta crear páginas web.</p>
+  <section id="biografia">
+    <h2>Biografía</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tom_Brady_WFT-Buccaneers_NOV2021_%28cropped%29.jpg/1200px-Tom_Brady_WFT-Buccaneers_NOV2021_%28cropped%29.jpg" alt="Tom Brady">
+    <p>Tom Brady, nacido el 3 de agosto de 1977 en San Mateo, California, es un destacado jugador de fútbol americano. Ha sido uno de los mariscales de campo más exitosos en la historia de la National Football League (NFL).</p>
+  </section>
+
+  <section id="logros">
+    <h2>Logros</h2>
+    <p>Brady inició su carrera profesional en el año 2000 con los New England Patriots, donde se convirtió en el líder indiscutible del equipo y ganó numerosos campeonatos de la NFL, incluyendo seis títulos del Super Bowl. Su precisión, liderazgo y habilidades tácticas le han valido el reconocimiento como uno de los mejores jugadores de la posición de todos los tiempos.</p>
+  </section>
+
+  <section id="legado">
+    <h2>Legado</h2>
+    <p>Después de una destacada trayectoria de 20 años con los Patriots, Brady se unió a los Tampa Bay Buccaneers en 2020. En su primera temporada con el equipo, llevó a los Buccaneers a ganar el Super Bowl LV, convirtiéndose en el primer jugador en la historia en ganar siete Super Bowls.</p>
+    <p>Además de sus logros en el campo, Brady es conocido por su ética de trabajo implacable, su dedicación al deporte y su capacidad para liderar a sus compañeros de equipo. Su influencia en el fútbol americano es innegable, y su legado perdurará como uno de los grandes íconos de este deporte.</p>
   </section>
 
   <footer>
